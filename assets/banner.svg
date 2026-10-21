@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 288" width="1280" height="288" role="img" aria-label="中文专利写作模板 Skill">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0B1320"/>
+      <stop offset="0.55" stop-color="#101C2E"/>
+      <stop offset="1" stop-color="#0A1119"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#2F6BFF" stop-opacity="0.26"/>
+      <stop offset="0.65" stop-color="#2F6BFF" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#2F6BFF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#FFFFFF" stroke-opacity="0.045" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <rect width="1280" height="288" fill="url(#bg)"/>
+  <rect width="1280" height="288" fill="url(#grid)"/>
+  <circle cx="1280" cy="-30" r="320" fill="url(#glow)"/>
+
+  <!-- eyebrow -->
+  <text x="64" y="72" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="12" letter-spacing="3.4" fill="#6E86A8">SKILL PACKAGE &#183; MIT &#183; v2</text>
+
+  <!-- title -->
+  <text x="62" y="140" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        font-size="50" font-weight="700" fill="#F3F7FF">中文专利写作模板</text>
+
+  <!-- subtitle -->
+  <text x="64" y="182" font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif"
+        font-size="19" fill="#9FB3CE">硬约束 + 双体检：写得成、改得动、查得出</text>
+
+  <!-- chips -->
+  <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="13" fill="#BFD2EC">
+    <rect x="64" y="208" width="196" height="34" rx="8" fill="#132034" stroke="#26405F"/>
+    <text x="80" y="230">结构 / 方法 / 算法</text>
+
+    <rect x="272" y="208" width="150" height="34" rx="8" fill="#132034" stroke="#26405F"/>
+    <text x="288" y="230" fill="#8FE3B6">A~H 格式体检</text>
+
+    <rect x="434" y="208" width="170" height="34" rx="8" fill="#132034" stroke="#26405F"/>
+    <text x="450" y="230" fill="#8FE3B6">J1~J14 审查自检</text>
+
+    <rect x="616" y="208" width="176" height="34" rx="8" fill="#132034" stroke="#26405F"/>
+    <text x="632" y="230" fill="#F2C879">SVG &#8594; DXF &#8594; DWG</text>
+  </g>
+
+  <!-- right: document stack -->
+  <g transform="translate(936,26)">
+    <rect x="26" y="34" width="146" height="176" rx="6" fill="#0F1B2B" stroke="#24384F"/>
+    <rect x="14" y="22" width="146" height="176" rx="6" fill="#122034" stroke="#2B4460"/>
+    <rect x="2" y="10" width="146" height="176" rx="6" fill="#16273D" stroke="#3B5B80"/>
+
+    <!-- header rule (页眉横线) -->
+    <line x1="18" y1="42" x2="132" y2="42" stroke="#5C89C6" stroke-width="1.4"/>
+    <text x="30" y="37" font-family="'Microsoft YaHei', system-ui, sans-serif"
+          font-size="9" fill="#7E9DC4" letter-spacing="3">说 明 书</text>
+
+    <!-- body lines -->
+    <g stroke="#37506F" stroke-width="2.4" stroke-linecap="round">
+      <line x1="18" y1="62" x2="132" y2="62"/>
+      <line x1="18" y1="78" x2="132" y2="78"/>
+      <line x1="18" y1="94" x2="104" y2="94"/>
+      <line x1="18" y1="116" x2="132" y2="116"/>
+      <line x1="18" y1="132" x2="120" y2="132"/>
+      <line x1="18" y1="148" x2="132" y2="148"/>
+      <line x1="18" y1="164" x2="86" y2="164"/>
+    </g>
+
+    <!-- callout leader + numbered label -->
+    <line x1="104" y1="132" x2="152" y2="110" stroke="#F2C879" stroke-width="1.2"/>
+    <circle cx="152" cy="110" r="9" fill="#0B1320" stroke="#F2C879" stroke-width="1.2"/>
+    <text x="152" y="114" text-anchor="middle" font-family="ui-monospace, monospace"
+          font-size="10" fill="#F2C879">1</text>
+
+    <!-- check badge -->
+    <circle cx="180" cy="196" r="20" fill="#0B1320" stroke="#4ADE9B" stroke-width="2"/>
+    <path d="M171 196l6 7 13-15" fill="none" stroke="#4ADE9B" stroke-width="3"
+          stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- dimension marks bottom right -->
+  <g stroke="#2E4A6B" stroke-width="1.2" fill="none">
+    <line x1="944" y1="248" x2="1100" y2="248"/>
+    <line x1="944" y1="242" x2="944" y2="254"/>
+    <line x1="1100" y1="242" x2="1100" y2="254"/>
+  </g>
+  <text x="1022" y="266" text-anchor="middle" font-family="ui-monospace, monospace"
+        font-size="10" fill="#5E7A9C">16.5 cm 版心</text>
+</svg>
