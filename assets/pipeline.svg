@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 190" width="1280" height="190" role="img" aria-label="交付管线">
+  <rect width="1280" height="190" rx="10" fill="#0B1320"/>
+  <text x="30" y="34" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace"
+        font-size="11" letter-spacing="2.6" fill="#5E7A9C">PIPELINE &#183; 顺序固定，第 4 步不能省</text>
+
+  <defs>
+    <marker id="ar" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0L10 5L0 10z" fill="#3C5C82"/>
+    </marker>
+  </defs>
+
+  <g font-family="system-ui, -apple-system, 'Segoe UI', 'Microsoft YaHei', 'PingFang SC', sans-serif">
+    <!-- row of nodes -->
+    <g>
+      <rect x="30" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="101" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">Markdown 源</text>
+      <text x="101" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">骨架 + 标号表</text>
+
+      <rect x="184" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="255" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">docx 构建</text>
+      <text x="255" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">OMML + 300dpi</text>
+
+      <rect x="338" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="409" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">SVG 附图</text>
+      <text x="409" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">黑白线稿</text>
+
+      <rect x="492" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#3F6B8F"/>
+      <text x="563" y="82" text-anchor="middle" font-size="13" fill="#F2C879">DXF + DWG</text>
+      <text x="563" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">ACAD2018 + 回读</text>
+
+      <rect x="646" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="717" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">套版式</text>
+      <text x="717" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">页眉 页码 行距</text>
+
+      <rect x="800" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="871" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">收口 fix_layout</text>
+      <text x="871" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">铺满 · 一页一幅</text>
+
+      <rect x="954" y="56" width="142" height="62" rx="7" fill="#0E211C" stroke="#3E7A5C"/>
+      <text x="1025" y="82" text-anchor="middle" font-size="13" fill="#8FE3B6">双体检</text>
+      <text x="1025" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">A~H + J1~J14</text>
+
+      <rect x="1108" y="56" width="142" height="62" rx="7" fill="#101B2B" stroke="#2B4460"/>
+      <text x="1179" y="82" text-anchor="middle" font-size="13" fill="#E6EEF9">PDF 目检</text>
+      <text x="1179" y="101" text-anchor="middle" font-size="10.5" fill="#7E93AF">交付 + 附图包</text>
+    </g>
+
+    <!-- arrows -->
+    <g stroke="#3C5C82" stroke-width="1.4" marker-end="url(#ar)">
+      <line x1="174" y1="87" x2="180" y2="87"/>
+      <line x1="328" y1="87" x2="334" y2="87"/>
+      <line x1="482" y1="87" x2="488" y2="87"/>
+      <line x1="636" y1="87" x2="642" y2="87"/>
+      <line x1="790" y1="87" x2="796" y2="87"/>
+      <line x1="944" y1="87" x2="950" y2="87"/>
+      <line x1="1098" y1="87" x2="1104" y2="87"/>
+    </g>
+
+    <!-- step index -->
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="10" fill="#4C6280">
+      <text x="30" y="140">01</text>
+      <text x="184" y="140">02</text>
+      <text x="338" y="140">03</text>
+      <text x="492" y="140">04</text>
+      <text x="646" y="140">05</text>
+      <text x="800" y="140">06</text>
+      <text x="954" y="140">07</text>
+      <text x="1108" y="140">08</text>
+    </g>
+
+    <text x="30" y="168" font-size="11.5" fill="#7E93AF">
+      ERROR 不清零不算交付——第 07 步的退出码就是验收标准（0 通过 / 1 有 ERROR / 2 只有 WARN）
+    </text>
+  </g>
+</svg>
